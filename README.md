@@ -352,38 +352,7 @@ DELETE FROM medico_especialidades WHERE medico_id = 19;
 
 No Clinigest, o `INNER JOIN` foi usado na maioria das consultas porque normalmente queremos mostrar dados que possuem ligação real, como consulta com paciente e médico. O `LEFT JOIN` foi usado para mostrar pacientes mesmo sem convênio. O `RIGHT JOIN` foi usado para mostrar todos os convênios, mesmo os que não possuem pacientes.
 
-## 13. Evidências para colocar na documentação
 
-Para completar a entrega, recomenda-se tirar prints de:
-
-1. DER do banco.
-2. Execução do `CREATE DATABASE` e das tabelas.
-3. Tabelas criadas no MySQL Workbench.
-4. Inserts executados com sucesso.
-5. Consulta simples SELECT.
-6. Consulta com filtro.
-7. Consulta com INNER JOIN.
-8. Consulta com LEFT JOIN.
-9. Consulta com RIGHT JOIN.
-10. Consulta com agregação.
-11. UPDATE executado.
-12. DELETE executado.
-
-## 14. Roteiro curto para apresentação
-
-1. Apresentar o tema: sistema para clínica médica.
-2. Explicar o problema: organizar pacientes, médicos, consultas, exames e pagamentos.
-3. Mostrar o DER e explicar as tabelas principais.
-4. Explicar a tabela `medico_especialidades`, que resolve a relação muitos para muitos entre médicos e especialidades.
-5. Mostrar a normalização: 1FN, 2FN e 3FN.
-6. Abrir o MySQL e mostrar o banco criado.
-7. Executar uma consulta simples.
-8. Executar uma consulta com filtro.
-9. Executar um `INNER JOIN`.
-10. Mostrar uma consulta com agregação.
-11. Explicar UPDATE e DELETE como exemplos de manutenção dos dados.
-12. Finalizar dizendo que o banco atende aos requisitos do projeto.
-
-## 15. Observação final
+## 13. Observação final
 
 O projeto foi feito de forma simples e legível para facilitar a explicação em sala de aula. A prioridade foi cumprir os requisitos do trabalho sem usar comandos avançados desnecessários.
